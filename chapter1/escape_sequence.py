@@ -12,5 +12,5 @@
 # print("hi \ti am aditi")
 
 # \\ - single backslash
-print("hi \\all")
+# print("hi \\all")
 

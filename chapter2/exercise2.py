@@ -1,3 +1,4 @@
-# take input from 3 users and print avg using string formatting
-num1,num2,num3 = (input("enter three numbers").split())
-print (f"avg of the numbers are {(int(num1)+int(num2)+int(num3))/3}")
+# ask user name and print back in reverse order
+
+name = input("enter your name")
+print(f"reverse your name is {name[-1::-1]}")
