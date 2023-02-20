@@ -1,0 +1,13 @@
+# ask user for name 
+# print count of each word
+
+name = input("enter your name")
+temp_var = ""
+i = 0
+while i < len(name):
+    if name[i] not in temp_var:
+        temp_var+= name[i]
+        print(f"{name[i]} : { name.count(name[i])}")
+    i+=1
+
+
