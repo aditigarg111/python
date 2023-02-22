@@ -19,9 +19,9 @@ def fibonacci_seq(n):
     else:
         print(a,b, end = " ")    
         for i in range(n-2):
-            c = a+b
-            b = a
-            a = c
+            c = a+b 
+            a = b
+            b = c
             print(b , end = " ")     
 
 fibonacci_seq(10)           
