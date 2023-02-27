@@ -18,6 +18,10 @@ user_info={
 # loops in dictonary
 # for i in user_info: ---- gives the keys
 #     print(i)
+                    # or
+# for i in user_info: #---- gives the keys
+#     print(user_info[i])
+
 # for i in user_info.values(): #---- gives the values
 #     print(i)
 
@@ -26,5 +30,9 @@ user_info={
 # print (user_info_values)
 
 # keys method
-user_info_keys = user_info.keys()
-print (user_info_keys)
+# user_info_keys = user_info.keys()
+# print (user_info_keys)
+
+# items method
+user_item= user_info.items()
+print (user_item)
