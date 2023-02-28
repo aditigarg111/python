@@ -36,3 +36,5 @@ user_info={
 # items method
 user_item= user_info.items()
 print (user_item)
+for key , value in user_info.items():
+    print(f"key is {key} and value is {value}")

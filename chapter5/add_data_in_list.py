@@ -1,6 +1,7 @@
 # fruits = ["mango","apple"]
 # fruits.append("orange") -------append method adds item at the end of the list
 # print(fruits)
+
 # APPEND
 # fruits = []
 # fruits.append("apple")
