@@ -1,5 +1,5 @@
 #  fromkey method ---- used to create dictonary
-# d = {"name":"unknown","age":"unknown","hair":"unknown"}---- when u want to keey vaues of different key same then use fromkey
+# d = {"name":"unknown","age":"unknown","hair":"unknown"}---- when u want to keep vaues of different key same then use fromkey
 # d = dict.fromkeys(["name","age","hair"],"unknown")
 # print(d)
 
