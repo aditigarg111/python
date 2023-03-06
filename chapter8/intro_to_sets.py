@@ -1,4 +1,5 @@
 # sets - unordred collection of unique items 
+# you cannot store list or dictonary inside a set
 s = {1,2,3,4,2} # only unique items will be printed 
 # print(s)
 # to remove duplicates
