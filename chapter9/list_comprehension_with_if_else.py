@@ -12,6 +12,3 @@ print(new_list)
 # with list comprehension
 new_list2 = [ i *2 if (i %2 ==0) else -i for i in num]
 print(new_list2)
-
-new_list3 = [ i *2 for i in nums if (i %2 ==0) else -i]
-print(new_list3)
