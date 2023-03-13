@@ -7,7 +7,17 @@
 # print (dict(example)) # changes into dictonary
 
 #  zipping can be done for more than two list 
-user_id = ["user1","user2","user3"]
-names =["aditi","avani","arsh"]
-last_name = ["garg","pandey","deep"]
-print(list(zip(user_id,names,last_name)))
+# user_id = ["user1","user2","user3"]
+# names =["aditi","avani","arsh"]
+# last_name = ["garg","pandey","deep"]
+# print(list(zip(user_id,names,last_name)))
+
+# from one list make one 
+l =[(1,2),(3,4),(5,6)]
+l1 = [1,3,5]
+l2 = [2,4,6]
+# we can use *zip function to do so
+print(list(zip(*l)))
+
+
+
