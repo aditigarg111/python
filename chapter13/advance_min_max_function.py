@@ -30,5 +30,4 @@ student1 = {
        'avani':{'score': 80,'age':16},
        'arsh':{'score': 70,'age':26},
 }
-print(max(student1,key = lambda item : student1[item]['score']))
- 
+print(max(student1,key = lambda item : student1[item]['age']))
